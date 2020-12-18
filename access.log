@@ -1,0 +1,44 @@
+2020-12-19 02:39:16|1.589968ms|200|GET|/v1/items|::1|0 B|130 B||
+2020-12-19 02:40:04|295.417µs|200|GET|/v1/items|::1|0 B|130 B||
+2020-12-19 02:40:19|2.121881ms|200|POST|/v1/items|::1|0 B|38 B||
+2020-12-19 02:40:33|283.572µs|200|GET|/v1/items|::1|0 B|193 B||
+2020-12-19 02:40:49|828.259µs|200|GET|/v1/items/3|::1|id=3|0 B|52 B||
+2020-12-19 02:40:51|53.141µs|301|GET|/v1/items/|::1|0 B|44 B||
+2020-12-19 02:40:51|428.356µs|200|GET|/v1/items|::1|0 B|193 B||
+2020-12-19 02:52:46|121.622µs|301|GET|/v1/items/|::1|0 B|44 B||
+2020-12-19 02:52:46|951.958µs|200|GET|/v1/items|::1|0 B|243 B||
+2020-12-19 02:52:49|462.84µs|200|GET|/v1/items/32|::1|id=32|0 B|47 B||
+2020-12-19 02:53:13|1.174376ms|200|GET|/v1/items/32|::1|id=32|0 B|21 B||
+2020-12-19 02:53:14|427.622µs|200|GET|/v1/items/32|::1|id=32|0 B|21 B||
+2020-12-19 02:53:14|300.679µs|200|GET|/v1/items/32|::1|id=32|0 B|21 B||
+2020-12-19 02:53:17|448.209µs|200|GET|/v1/items/32|::1|id=32|0 B|21 B||
+2020-12-19 02:53:40|771.64µs|400|GET|/v1/items/32|::1|0 B|26 B|error(sql: no rows in result set)|
+2020-12-19 02:54:07|1.459087ms|200|GET|/v1/items/32|::1|id=32|0 B|47 B||
+2020-12-19 02:55:51|1.311468ms|400|GET|/v1/items/32|::1|0 B|47 B||
+2020-12-19 02:55:54|548.857µs|400|GET|/v1/items/32|::1|0 B|47 B||
+2020-12-19 02:59:32|1.850115ms|201|POST|/v1/items|::1|0 B|23 B||
+2020-12-19 02:59:56|372.124µs|200|GET|/v1/items|::1|0 B|315 B||
+2020-12-19 03:09:17|2.550773ms|200|PATCH|/v1/items/4|::1|id=4|0 B|23 B||
+2020-12-19 03:09:23|425.03µs|200|GET|/v1/items|::1|0 B|310 B||
+2020-12-19 03:19:26|89.879µs|400|PATCH|/v1/items/4|::1|0 B|63 B||
+2020-12-19 03:20:17|149.001µs|400|PATCH|/v1/items/4|::1|0 B|63 B||
+2020-12-19 03:22:26|964.47µs|500|PATCH|/v1/items/4|::1|0 B|21 B|error(runtime error: invalid memory address or nil pointer dereference /home/alik/go/src/github.com/aaalik/coba-golang/controller/v1/item.go:60)|
+2020-12-19 03:23:58|233.156µs|400|PATCH|/v1/items/4|::1|0 B|63 B||
+2020-12-19 03:24:44|157.025µs|400|PATCH|/v1/items/4|::1|0 B|63 B||
+2020-12-19 03:25:14|113.63µs|400|PATCH|/v1/items/4|::1|0 B|63 B||
+2020-12-19 03:25:43|1.161611ms|500|PATCH|/v1/items/4|::1|0 B|21 B|error(runtime error: invalid memory address or nil pointer dereference /home/alik/go/src/github.com/aaalik/coba-golang/controller/v1/item.go:59)|
+2020-12-19 03:27:46|960.176µs|500|PATCH|/v1/items/4|::1|0 B|21 B|error(runtime error: invalid memory address or nil pointer dereference /home/alik/go/src/github.com/aaalik/coba-golang/controller/v1/item.go:59)|
+2020-12-19 03:29:01|1.079479ms|500|PATCH|/v1/items/4|::1|0 B|21 B|error(runtime error: invalid memory address or nil pointer dereference /home/alik/go/src/github.com/aaalik/coba-golang/controller/v1/item.go:60)|
+2020-12-19 03:29:38|1.476551ms|500|PATCH|/v1/items/4|::1|0 B|21 B|error(runtime error: invalid memory address or nil pointer dereference /home/alik/go/src/github.com/aaalik/coba-golang/controller/v1/item.go:60)|
+2020-12-19 03:30:32|2.400815ms|500|PATCH|/v1/items/4|::1|0 B|21 B|error(runtime error: invalid memory address or nil pointer dereference /home/alik/go/src/github.com/aaalik/coba-golang/controller/v1/item.go:60)|
+2020-12-19 03:37:21|1.141347ms|200|PATCH|/v1/items/4|::1|id=4|0 B|23 B||
+2020-12-19 03:37:30|483.762µs|200|GET|/v1/items|::1|0 B|310 B||
+2020-12-19 03:37:33|257.124µs|200|GET|/v1/items|::1|0 B|310 B||
+2020-12-19 03:50:42|3.040129ms|200|PATCH|/v1/items/4|::1|id=4|0 B|23 B||
+2020-12-19 03:50:46|394.974µs|200|GET|/v1/items|::1|0 B|315 B||
+2020-12-19 03:51:03|1.441366ms|200|PATCH|/v1/items/4|::1|id=4|0 B|23 B||
+2020-12-19 03:51:09|367.534µs|200|GET|/v1/items/4|::1|id=4|0 B|77 B||
+2020-12-19 03:51:24|1.440995ms|200|PATCH|/v1/items/4|::1|id=4|0 B|23 B||
+2020-12-19 03:51:27|352.673µs|200|GET|/v1/items/4|::1|id=4|0 B|78 B||
+2020-12-19 03:55:07|4.190702ms|500|DELETE|/v1/items/4|::1|0 B|0 B||
+2020-12-19 03:55:16|413.271µs|200|GET|/v1/items|::1|0 B|243 B||
